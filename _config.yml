@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Samuel Situmeang's Academic Pages"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Samuel Situmeang"
 description              : &description "Samuel Situmeang is a Lecturer at the Undergraduate Study Program of Information System, Faculty of Informatics and Electrical Engineering, Del Institute of Technology, Indonesia. His research interests include Natural Language Processing, Multimedia Content Analysis, and Data Warehouse. He teaches Artificial Intelligence, Natural Language Processing, Data Warehouse and Business Intelligence, and Data Visualization at the undergraduate level.
