@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Samuel Situmeang's Homepage"
+title                    : "Samuel Situmeang's Academic Pages"
 title_separator          : "-"
 name                     : &name "Samuel Situmeang"
 description              : &description "Samuel Situmeang is a Lecturer at the Undergraduate Study Program of Information System, Faculty of Informatics and Electrical Engineering, Del Institute of Technology, Indonesia. His research interests include Natural Language Processing, Multimedia Content Analysis, and Data Warehouse. He teaches Artificial Intelligence, Natural Language Processing, Data Warehouse and Business Intelligence, and Data Visualization at the undergraduate level.
@@ -89,14 +89,14 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.co.id/citations?hl=en&user=vaIsPqcAAAAJ"
-  email            : "samuel.situmeang@ymail.com"
+  email            : "samuel.situmeang@del.ac.id"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : https://www.facebook.com/samuel.situmeang
+  facebook         : samuel.situmeang
   foursquare       :
   github           : "exemuel"
   google_plus      :
