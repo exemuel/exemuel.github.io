@@ -1,7 +1,7 @@
 ---
 title: "Badminton Video Analysis based on Spatiotemporal and Stroke Features"
 collection: publications
-permalink: /publication/2017-06-06-publication-1
+permalink: /publication/2017-06-06-badminton-video-analysis-based-on-spatiotemporal-and-stroke-features
 excerpt: 'Most of the broadcasted sports events nowadays present game statistics to the viewers which can be used to design the gameplay strategy, improve player's performance, or improve accessing the point of interest of a sport game. However, few studies have been proposed for broadcasted badminton videos. In this paper, we integrate several visual analysis techniques to detect the court, detect players, classify strokes, and classify the player's strategy. Based on visual analysis, we can get some insights about the common strategy of a certain player. We evaluate performance of stroke classification, strategy classification, and show game statistics based on classification results.'
 date: 2017-06-06
 venue: 'Proceedings of the 2017 ACM on International Conference on Multimedia Retrieval'
