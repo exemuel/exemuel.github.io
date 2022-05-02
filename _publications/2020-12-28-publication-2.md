@@ -12,4 +12,4 @@ Mobile malware has become the centerpiece of most security and privacy threats o
 
 [Download paper here](https://dl.acm.org/doi/pdf/10.1145/3427423.3427427)
 
-Recommended citation: T. N. Turnip, A. Situmorang, A. Lumbantobing, J. Marpaung, and S. I. G. Situmeang, &quot;Android Malware Classification Based on Permission Categories Using Extreme Gradient Boosting,&quot; in <i>ACM International Conference Proceeding Series</i>, Nov. 2020, pp. 190–194. doi: 10.1145/3427423.3427427.
+Recommended citation: T. N. Turnip, A. Situmorang, A. Lumbantobing, J. Marpaung, and S. I. G. Situmeang, Android Malware Classification Based on Permission Categories Using Extreme Gradient Boosting," in <i>ACM International Conference Proceeding Series</i>, Nov. 2020, pp. 190–194. doi: 10.1145/3427423.3427427.
