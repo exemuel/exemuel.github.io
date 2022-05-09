@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Home"
+title: "Bio"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,6 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Samuel Situmeang is a Lecturer at the Undergraduate Study Program of Information System, Faculty of Informatics and Electrical Engineering, Del Institute of Technology, Indonesia. His research interests include Natural Language Processing, Multimedia Content Analysis, Data Warehouse, and Data Visualization. In the past two years, he taught Artificial Intelligence, Natural Language Processing, Data Warehouse and Business Intelligence, and Data Visualization at the undergraduate level.
+I am a Lecturer at the [Undergraduate Study Program of Information System](http://s1is.del.ac.id/), [Faculty of Informatics and Electrical Engineering](https://www.del.ac.id/?page_id=3348), [Del Institute of Technology](https://www.del.ac.id/), Indonesia. My research interests include Natural Language Processing, Multimedia Content Analysis, Data Warehouse, and Data Visualization. In the past two years, I taught Artificial Intelligence, Natural Language Processing, Data Warehouse and Business Intelligence, and Data Visualization at the undergraduate level.
 
-Samuel Situmeang received his Master's degree in Computer Science and Information Engineering from the National Chung Cheng University (CCU), Taiwan, under Prof. Wei-Ta Chu's (朱威達) supervision.
+I received my Master's degree in [Computer Science and Information Engineering](https://www.cs.ccu.edu.tw/) from the [National Chung Cheng University (CCU)](https://www.ccu.edu.tw/), Taiwan, under Prof. [Wei-Ta Chu's (朱威達)](http://mmcv.csie.ncku.edu.tw/~wtchu/) supervision.
