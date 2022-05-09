@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Bachelor's degree in Information Technology, 2014
-* Master's degree in Computer Science, 2017
+* Master's degree in Computer Science and Information Engineering, 2017
 
 Publications
 ======
