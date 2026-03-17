@@ -1,18 +1,9 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
+Samuel Situmeang:
+  name        : "Samuel Situmeang"
+  uri         : "https://exemuel.github.io"
+  email       : "samuel.situmeang@del.ac.id"
+  bio         : "Lecturer in the Information Systems Study Program at Institut Teknologi Del (IT Del) with over nine years of professional experience. Coordinator of the Bebras Bureau at IT Del and Researcher at the IT Del Artificial Intelligence Research Center, specializing in database management, business analytics, and AI (LLMs and RAG)."
   avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+  twitter     : "exemuel"
