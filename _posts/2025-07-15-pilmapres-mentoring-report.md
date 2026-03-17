@@ -5,11 +5,11 @@ permalink: /posts/2025/07/pilmapres-mentoring-report/
 tags:
   - Pilmapres 2025
   - LLDikti Region I
-  - Del Institute of Technology
+  - Institut Teknologi Del
   - Student Mentoring
 ---
 
-The Selection of Outstanding Students (Pilmapres) is a routine competition held by the Indonesian Ministry of Education, Culture, Research, and Technology. It aims to identify and appreciate top students who excel academically, contribute positively to society, and demonstrate integrity and leadership. In 2025, I, along with Eka Stephani Sinambela, had the privilege of mentoring students from the Del Institute of Technology for the Regional Pilmapres in LLDikti Region I.
+The Selection of Outstanding Students (Pilmapres) is a routine competition held by the Indonesian Ministry of Education, Culture, Research, and Technology. It aims to identify and appreciate top students who excel academically, contribute positively to society, and demonstrate integrity and leadership. In 2025, I, along with Eka Stephani Sinambela, had the privilege of mentoring students from the Institut Teknologi Del for the Regional Pilmapres in LLDikti Region I.
 
 The Importance of Mentoring
 ======
