@@ -1,152 +1,171 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Samuel Situmeang",
+    "email": "samuel.situmeang@del.ac.id",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://exemuel.github.io",
+    "summary": "Lecturer in the Information Systems Study Program at Institut Teknologi Del (IT Del) with over nine years of professional experience. Coordinator of the Bebras Bureau at IT Del and Researcher at the IT Del Artificial Intelligence Research Center, specializing in database management, business analytics, and AI (LLMs and RAG).",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "address": "Institut Teknologi Del",
+      "postalCode": "22381",
+      "city": "Toba",
+      "countryCode": "ID",
+      "region": "North Sumatra"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Samuel Indra Gunawan Situmeang",
+        "url": "https://scholar.google.com/citations?hl=en&user=vaIsPqcAAAAJ"
       },
       {
         "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "Samuel Situmeang",
+        "url": "https://orcid.org/0000-0003-3070-0932"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "exemuel",
+        "url": "https://github.com/exemuel"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Institut Teknologi Del (IT Del)",
+      "position": "Lecturer, Information Systems Study Program",
+      "startDate": "2017-01-01",
+      "endDate": "Present",
+      "summary": "Professional educator and researcher mentoring students in Information Systems Projects (PSI) and internships."
+    },
+    {
+      "company": "Institut Teknologi Del (IT Del)",
+      "position": "Coordinator of the Bebras Bureau",
+      "startDate": "",
+      "endDate": "Present",
+      "summary": "Coordinating activities and computational thinking initiatives."
+    },
+    {
+      "company": "IT Del Artificial Intelligence Research Center",
+      "position": "Researcher",
+      "startDate": "",
+      "endDate": "Present",
+      "summary": "Conducting research and development of AI-driven systems, including Large Language Models, RAG, and AI Agents."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "National Chung Cheng University",
+      "area": "Computer Science and Information Engineering",
+      "studyType": "Master's",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
+      "institution": "Universitas Sumatera Utara",
+      "area": "Information Technology",
+      "studyType": "Bachelor's",
       "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Artificial Intelligence",
+      "level": "Advanced",
+      "keywords": ["LLMs", "Retrieval-Augmented Generation (RAG)", "AI Agents"]
+    },
+    {
+      "name": "Data Engineering & Architecture",
+      "level": "Advanced",
+      "keywords": ["Relational Databases", "ETL", "Star/Snowflake Schemas", "OLTP", "Data Warehousing"]
+    },
+    {
+      "name": "Business Analytics",
+      "level": "Advanced",
+      "keywords": ["Tableau", "Google Data Analytics"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Indonesian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cultural Digitization",
+      "keywords": ["Ulos motifs", "DiTenun project"]
+    },
+    {
+      "name": "Pedagogy",
+      "keywords": ["Digital literacy", "Mentoring Gen Z", "Academic Integrity"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Automatic Coloring of Ulos Motif Using Large Language Model and Non-Dominated Sorting Differential Evolution Algorithm",
+      "publisher": "International Journal of Advances in Intelligent Informatics",
+      "releaseDate": "2026-02-10",
+      "website": "https://www.merriam-webster.com/dictionary/publication",
+      "summary": "A research paper focused on the automatic coloring of local cultural assets (Ulos motifs) utilizing LLMs and advanced sorting algorithms."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Informatika Masa Depan: Prediksi, Tren, dan Inovasi",
+      "publisher": "Pencatatan Ciptaan No. 001081718",
+      "releaseDate": "2026-01-15",
+      "website": "https://kdp.amazon.com/help/topic/G202172740",
+      "summary": "A co-authored book exploring future predictions, trends, and innovations in the field of informatics."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Technical Manuscript Preparation Workshop (Bimbingan Teknis)",
+      "event": "LLDikti Wilayah I",
+      "date": "2026-02-26",
+      "location": "Medan, Indonesia",
+      "description": "Attended technical manuscript preparation workshop."
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Community Service Program (PkM) Initial Assessment",
+      "event": "Kesatuan Pengelolaan Hutan (KPH) Wilayah XIII",
+      "date": "2026-02-09",
+      "location": "Doloksanggul, Indonesia",
+      "description": "Conducted an initial assessment for PkM with capstone project supervisees."
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Proyek Sistem Informasi (PSI)",
+      "institution": "Institut Teknologi Del",
+      "date": "2026-01-01",
+      "role": "Dosen Wali / Mentor",
+      "description": "Capstone course supervising and mentoring students through their final Information Systems projects."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "Market Analysis for Master's Program in AI",
+      "category": "Academic Development",
+      "date": "2024-02-01",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Drafting market analysis surveys and proposals for the planned Master's Program in Artificial Intelligence at IT Del."
+    },
+    {
+      "name": "Google Data Analytics & Tableau Certifications",
+      "category": "Certifications",
+      "date": "2026-02-01",
+      "url": "",
+      "description": "Completed professional certificates in Google Data Analytics and Tableau Business Intelligence Analysis."
     }
   ]
 }
