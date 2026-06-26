@@ -11,35 +11,37 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D (expected)
+* M.S. in Computer Science and Information Engineering, National Chung Cheng University, 2017
+* B.S. in Information Technology, Universitas Sumatera Utara, 2014
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2017 - Present: Lecturer, Information Systems Study Program
+  * Institut Teknologi Del (IT Del)
+  * Duties include: Designing curriculum, teaching database management and business analytics, and mentoring students in their capstone projects (Proyek Sistem Informasi) and industry internships.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2025 - Present: Researcher
+  * IT Del Artificial Intelligence Research Center
+  * Duties include: Researching and developing AI-driven systems (LLMs, RAG, AI Agents) and leading initiatives on the digital preservation of cultural assets, such as the automatic coloring of Ulos motifs.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2021 - Present: Coordinator of the Bebras Bureau
+  * Institut Teknologi Del (IT Del)
+  * Duties include: Coordinating computational thinking initiatives, managing administrative activities, and fostering digital literacy.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Artificial Intelligence
+  * Large Language Models (LLMs)
+  * Retrieval-Augmented Generation (RAG)
+  * AI Agents
+* Data Engineering & Architecture
+  * Relational Databases & Data Warehousing (OLAP/OLTP)
+  * ETL Processes
+  * Advanced Schemas (Star, Snowflake)
+* Business Analytics
+  * Google Data Analytics (Professional Certificate)
+  * Tableau Business Intelligence Analysis (Professional Certificate)
 
 Publications
 ======
@@ -61,4 +63,6 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* **Dosen Wali (Academic Advisor/Mentor):** Mentoring students with a strong focus on building digital literacy, overcoming dependence on instant AI solutions, and maintaining academic integrity.
+* **Community Service (PkM):** Active participant in regional community service programs, including project assessments at Kesatuan Pengelolaan Hutan (KPH) Wilayah XIII in Doloksanggul.
+* **Institutional Development:** Contributor to the drafting of market analysis surveys for the planned Master’s Program in Artificial Intelligence at IT Del.
