@@ -3,12 +3,20 @@ title: 'My Family Genealogy'
 date: 2026-06-27
 permalink: /posts/2026/06/my-family-genealogy/
 tags:
-  - genealogy
+- genealogy
 ---
 
-<p>In Batak genealogy, the Situmeang (<em>Surat Batak</em>: ᯘᯪᯖᯮᯔᯩᯀᯰ) clan is part of the lineage of <strong>Naipospos</strong>. This clan was inherited directly by <strong>Naipospos' fourth son, Jamita Mangaraja</strong>. Situmeang is included in the lineage of <strong>Naipospos' descendants</strong>, along with the Sibagariang, Hutauruk, Simanungkalit, Marbun Lumbanbatu, Marbun Banjarnahor, and Marbun Lumbangaol clans.</p>
+<p>In Batak genealogy, the Situmeang (<em>Surat Batak</em>: ᯘᯪᯖᯮᯔᯩᯀᯰ) clan is part of the lineage of
+  <strong>Naipospos</strong>. This clan was inherited directly by <strong>Naipospos' fourth son, Jamita
+    Mangaraja</strong>. Situmeang is included in the lineage of <strong>Naipospos' descendants</strong>, along with the
+  Sibagariang, Hutauruk, Simanungkalit, Marbun Lumbanbatu, Marbun Banjarnahor, and Marbun Lumbangaol clans.</p>
 
-<p>If you look at the birth order of <strong>Naipospos' sons</strong>, the first was <strong>Donda Hopol</strong> (Sibagariang) from his first wife, followed by <strong>Marbun</strong> from his second wife. Three more sons were born to his first wife: <strong>Donda Ujung</strong> (Hutauruk), <strong>Ujung Tinumpak</strong> (Simanungkalit), and finally <strong>Jamita Mangaraja</strong> (Situmeang). However, tradition in most Batak regions always lists descendants from the first wife to the second wife when writing genealogies (tarombo) if someone has children from multiple wives.</p>
+<p>If you look at the birth order of <strong>Naipospos' sons</strong>, the first was <strong>Donda Hopol</strong>
+  (Sibagariang) from his first wife, followed by <strong>Marbun</strong> from his second wife. Three more sons were born
+  to his first wife: <strong>Donda Ujung</strong> (Hutauruk), <strong>Ujung Tinumpak</strong> (Simanungkalit), and
+  finally <strong>Jamita Mangaraja</strong> (Situmeang). However, tradition in most Batak regions always lists
+  descendants from the first wife to the second wife when writing genealogies (tarombo) if someone has children from
+  multiple wives.</p>
 
 <style>
   .diagram-container {
@@ -22,6 +30,7 @@ tags:
     margin: 2rem 0;
     overflow: hidden;
   }
+
   .zoom-controls {
     position: absolute;
     bottom: 20px;
@@ -31,6 +40,7 @@ tags:
     flex-direction: column;
     gap: 8px;
   }
+
   .zoom-controls button {
     background: #ffffff;
     border: 1px solid #cbd5e1;
@@ -46,28 +56,39 @@ tags:
     color: #475569;
     transition: all 0.2s ease;
   }
+
   .zoom-controls button:hover {
     background: #f1f5f9;
     border-color: #94a3b8;
     color: #0f172a;
     transform: translateY(-1px);
   }
+
   .zoom-controls button:active {
     transform: translateY(0);
   }
+
   .zoom-controls button.reset-btn {
     width: auto;
     padding: 0 16px;
     font-size: 14px;
     font-weight: 600;
   }
+
   #mermaid-diagram {
     width: 100%;
     height: 100%;
     cursor: grab;
   }
+
   #mermaid-diagram:active {
     cursor: grabbing;
+  }
+
+  #mermaid-diagram svg {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
   }
 </style>
 
@@ -80,225 +101,227 @@ tags:
   <div id="mermaid-diagram"></div>
 </div>
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  
-  // Load svg-pan-zoom dynamically
-  const script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js';
-  document.head.appendChild(script);
+<!-- Load svg-pan-zoom as a regular (non-module) script first -->
+<script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
 
-  const graphDefinition = `
-%%{init: {"flowchart": {"curve": "step", "nodesSpacing": 30, "rankSpacing": 50}}}%%
-flowchart TD
-    %% Improved Styling Classes
-    classDef genTop fill:#e3f2fd,stroke:#1e88e5,stroke-width:3px,font-size:16px,color:#0d47a1,font-weight:bold
-    classDef genMid fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,font-size:14px,color:#1b5e20,font-weight:bold
-    classDef genDeep fill:#fff8e1,stroke:#fbc02d,stroke-width:2px,font-size:13px,color:#f57f17
-    classDef boru fill:#fce4ec,stroke:#e91e63,stroke-width:2px,stroke-dasharray: 5 5,font-size:13px,color:#880e4f
-    
-    %% Legend
-    subgraph Legend [Diagram Legend & Color Key]
-        direction LR
-        Key1["Generations 1-4"]
-        Key2["Generations 5-9"]
-        Key3["Generations 10-14"]
-        Key4["Boru (Daughters/In-laws)"]
-    end
+<script>
+  (function () {
+    var graphDefinition = [
+      '%%{init: {"flowchart": {"curve": "step", "nodesSpacing": 30, "rankSpacing": 50}}}%%',
+      'flowchart TD',
+      '    classDef genTop fill:#e3f2fd,stroke:#1e88e5,stroke-width:3px,font-size:16px,color:#0d47a1,font-weight:bold',
+      '    classDef genMid fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,font-size:14px,color:#1b5e20,font-weight:bold',
+      '    classDef genDeep fill:#fff8e1,stroke:#fbc02d,stroke-width:2px,font-size:13px,color:#f57f17',
+      '    classDef boru fill:#fce4ec,stroke:#e91e63,stroke-width:2px,stroke-dasharray: 5 5,font-size:13px,color:#880e4f',
+      '    subgraph Legend [Diagram Legend & Color Key]',
+      '        direction LR',
+      '        Key1["Generations 1-4"]',
+      '        Key2["Generations 5-9"]',
+      '        Key3["Generations 10-14"]',
+      '        Key4["Boru (Daughters/In-laws)"]',
+      '    end',
+      '    subgraph G1 [Generation 1]',
+      '        L1["Djamita Mangaradja"]',
+      '    end',
+      '    subgraph G2 [Generation 2]',
+      '        L2_1["Ompu Raja Lalo"]',
+      '        L2_2["Binanga Julu"]',
+      '        L2_3["Ompu Raja Naunang"]',
+      '        L2_4["Ompu Juara Tua"]',
+      '    end',
+      '    subgraph G3 [Generation 3]',
+      '        L3_1["Tuan Marsanti"]',
+      '        L3_2["Palionggang"]',
+      '        L3_3["Marbulusan"]',
+      '        L3_4["Manalaksak"]',
+      '    end',
+      '    subgraph G4 [Generation 4]',
+      '        L4_1["Ompu Mangala Dongan"]',
+      '        L4_2["Ompu Hombar"]',
+      '        L4_3["Gr. Sumodung"]',
+      '        L4_4["Ompu Binjuru"]',
+      '        L4_5["Ompu Tarborong"]',
+      '    end',
+      '    subgraph G5 [Generation 5]',
+      '        L5_1["Simarrante"]',
+      '        L5_2["Gr. Solupa (Lantosan)"]',
+      '    end',
+      '    subgraph G6 [Generation 6]',
+      '        L6["Ompu Parbue"]',
+      '    end',
+      '    subgraph G7 [Generation 7]',
+      '        L7["Ompu Somiduk"]',
+      '    end',
+      '    subgraph G8 [Generation 8]',
+      '        L8["Situameat"]',
+      '    end',
+      '    subgraph G9 [Generation 9]',
+      '        L9["Sinar Soara<br/>Br. Sarumpaet"]',
+      '    end',
+      '    subgraph G10 [Generation 10]',
+      '        L10["Op. Ni Abaran/Br. Siahaan"]',
+      '    end',
+      '    subgraph G11 [Generation 11]',
+      '        L11_1["Hisar/Br. Siahaan"]',
+      '        L11_2["Saut/Br. Siahaan"]',
+      '        L11_3["Lopian/Br. Hutabarat"]',
+      '        L11_4["St. Boel/Br. Hutauruk"]',
+      '    end',
+      '    subgraph G12 [Generation 12]',
+      '        L12_1["Teken/Br. Hutabarat"]',
+      '        L12_2["Gr. Lukas /Br. Manalu"]',
+      '    end',
+      '    subgraph G13 [Generation 13]',
+      '        L13_1["Usdin/Br. Hutahaean"]',
+      '        L13_2["Hotman/Br. Simangunsong"]',
+      '        L13_3["Boru<br>Tetty Br. Situmeang/Panjaitan"]',
+      '        L13_4["Boru<br>Nurmaiwan Br. Situmeang/Simanjuntak"]',
+      '        L13_5["Boru<br>Ritauli Br. Situmeang/Panggabean"]',
+      '        L13_6["Pnt. Antoni/Br. Laoli"]',
+      '        L13_7["Nimrot/Br. Sirait"]',
+      '        L13_8["Boru<br>Martha Br. Situmeang/Marpaung"]',
+      '        L13_9["Boru<br>Sinta Bonauli Br. Situmeang/Sirait"]',
+      '    end',
+      '    subgraph G14 [Generation 14]',
+      '        L14_1["Samuel Indra Gunawan"]',
+      '        L14_2["Jeremiya"]',
+      '        L14_3["Mohaga Rianto Manalaksak"]',
+      '        L14_4["Julio Gilbert Hamonangan"]',
+      '        L14_5["Haris Prasetya Dharma Syahputra"]',
+      '        L14_6["Hans Mayson Pranajaya"]',
+      '        L14_7["Boru<br>Rani Evadewi Ria Br. Situmeang"]',
+      '        L14_8["Boru<br>Riyanti Br. Situmeang"]',
+      '    end',
+      '    L1 --- L2_1',
+      '    L1 --- L2_2',
+      '    L1 --- L2_3',
+      '    L1 --- L2_4',
+      '    L2_1 --- L3_1',
+      '    L2_1 --- L3_2',
+      '    L2_1 --- L3_3',
+      '    L2_1 --- L3_4',
+      '    L3_4 --- L4_1',
+      '    L3_4 --- L4_2',
+      '    L3_4 --- L4_3',
+      '    L3_4 --- L4_4',
+      '    L3_4 --- L4_5',
+      '    L4_1 --- L5_1',
+      '    L4_1 --- L5_2',
+      '    L5_2 --- L6',
+      '    L6 --- L7',
+      '    L7 --- L8',
+      '    L8 --- L9',
+      '    L9 --- L10',
+      '    L10 --- L11_1',
+      '    L10 --- L11_2',
+      '    L10 --- L11_3',
+      '    L10 --- L11_4',
+      '    L11_3 --- L12_1',
+      '    L11_3 --- L12_2',
+      '    L12_1 --- L13_1',
+      '    L12_1 --- L13_2',
+      '    L12_2 --- L13_3',
+      '    L12_2 --- L13_4',
+      '    L12_2 --- L13_5',
+      '    L12_2 --- L13_6',
+      '    L12_2 --- L13_7',
+      '    L12_2 --- L13_8',
+      '    L12_2 --- L13_9',
+      '    L13_3 --- L14_1',
+      '    L13_3 --- L14_2',
+      '    L13_3 --- L14_3',
+      '    L13_3 --- L14_4',
+      '    L13_4 --- L14_5',
+      '    L13_4 --- L14_6',
+      '    L13_4 --- L14_7',
+      '    L13_4 --- L14_8',
+      '    class Key1,L1,L2_1,L2_2,L2_3,L2_4,L3_1,L3_2,L3_3,L3_4,L4_1,L4_2,L4_3,L4_4,L4_5 genTop',
+      '    class Key2,L5_1,L5_2,L6,L7,L8,L9 genMid',
+      '    class Key3,L10,L11_1,L11_2,L11_3,L11_4,L12_1,L12_2,L13_1,L13_2,L13_6,L13_7,L14_1,L14_2,L14_3,L14_4,L14_5,L14_6 genDeep',
+      '    class Key4,L13_3,L13_4,L13_5,L13_8,L13_9,L14_7,L14_8 boru'
+    ].join('\n');
 
-    %% Generation Tiers (Subgraphs)
-    subgraph G1 [Generation 1]
-        L1["Djamita Mangaradja"]
-    end
-
-    subgraph G2 [Generation 2]
-        L2_1["Ompu Raja Lalo"]
-        L2_2["Binanga Julu"]
-        L2_3["Ompu Raja Naunang"]
-        L2_4["Ompu Juara Tua"]
-    end
-
-    subgraph G3 [Generation 3]
-        L3_1["Tuan Marsanti"]
-        L3_2["Palionggang"]
-        L3_3["Marbulusan"]
-        L3_4["Manalaksak"]
-    end
-
-    subgraph G4 [Generation 4]
-        L4_1["Ompu Mangala Dongan"]
-        L4_2["Ompu Hombar"]
-        L4_3["Gr. Sumodung"]
-        L4_4["Ompu Binjuru"]
-        L4_5["Ompu Tarborong"]
-    end
-
-    subgraph G5 [Generation 5]
-        L5_1["Simarrante"]
-        L5_2["Gr. Solupa (Lantosan)"]
-    end
-
-    subgraph G6 [Generation 6]
-        L6["Ompu Parbue"]
-    end
-
-    subgraph G7 [Generation 7]
-        L7["Ompu Somiduk"]
-    end
-
-    subgraph G8 [Generation 8]
-        L8["Situameat"]
-    end
-
-    subgraph G9 [Generation 9]
-        L9["Sinar Soara<br/>Br. Sarumpaet"]
-    end
-
-    subgraph G10 [Generation 10]
-        L10["Op. Ni Abaran/Br. Siahaan"]
-    end
-
-    subgraph G11 [Generation 11]
-        L11_1["Hisar/Br. Siahaan"]
-        L11_2["Saut/Br. Siahaan"]
-        L11_3["Lopian/Br. Hutabarat"]
-        L11_4["St. Boel/Br. Hutauruk"]
-    end
-
-    subgraph G12 [Generation 12]
-        L12_1["Teken/Br. Hutabarat"]
-        L12_2["Gr. Lukas /Br. Manalu"]
-    end
-
-    subgraph G13 [Generation 13]
-        L13_1["Usdin/Br. Hutahaean"]
-        L13_2["Hotman/Br. Simangunsong"]
-        L13_3["Boru<br>Tetty Br. Situmeang/Panjaitan"]
-        L13_4["Boru<br>Nurmaiwan Br. Situmeang/Simanjuntak"]
-        L13_5["Boru<br>Ritauli Br. Situmeang/Panggabean"]
-        L13_6["Pnt. Antoni/Br. Laoli"]
-        L13_7["Nimrot/Br. Sirait"]
-        L13_8["Boru<br>Martha Br. Situmeang/Marpaung"]
-        L13_9["Boru<br>Sinta Bonauli Br. Situmeang/Sirait"]
-    end
-
-    subgraph G14 [Generation 14]
-        L14_1["Samuel Indra Gunawan"]
-        L14_2["Jeremiya"]
-        L14_3["Mohaga Rianto Manalaksak"]
-        L14_4["Julio Gilbert Hamonangan"]
-        L14_5["Haris Prasetya Dharma Syahputra"]
-        L14_6["Hans Mayson Pranajaya"]
-        L14_7["Boru<br>Rani Evadewi Ria Br. Situmeang"]
-        L14_8["Boru<br>Riyanti Br. Situmeang"]
-    end
-
-    %% Connections
-    L1 --- L2_1
-    L1 --- L2_2
-    L1 --- L2_3
-    L1 --- L2_4
-
-    L2_1 --- L3_1
-    L2_1 --- L3_2
-    L2_1 --- L3_3
-    L2_1 --- L3_4
-
-    L3_4 --- L4_1
-    L3_4 --- L4_2
-    L3_4 --- L4_3
-    L3_4 --- L4_4
-    L3_4 --- L4_5
-
-    L4_1 --- L5_1
-    L4_1 --- L5_2
-
-    L5_2 --- L6
-    L6 --- L7
-    L7 --- L8
-    L8 --- L9
-    L9 --- L10
-
-    L10 --- L11_1
-    L10 --- L11_2
-    L10 --- L11_3
-    L10 --- L11_4
-
-    L11_3 --- L12_1
-    L11_3 --- L12_2
-
-    L12_1 --- L13_1
-    L12_1 --- L13_2
-    
-    L12_2 --- L13_3
-    L12_2 --- L13_4
-    L12_2 --- L13_5
-    L12_2 --- L13_6
-    L12_2 --- L13_7
-    L12_2 --- L13_8
-    L12_2 --- L13_9
-
-    L13_3 --- L14_1
-    L13_3 --- L14_2
-    L13_3 --- L14_3
-    L13_3 --- L14_4
-
-    L13_4 --- L14_5
-    L13_4 --- L14_6
-    L13_4 --- L14_7
-    L13_4 --- L14_8
-
-    %% Class Assignments
-    class Key1,L1,L2_1,L2_2,L2_3,L2_4,L3_1,L3_2,L3_3,L3_4,L4_1,L4_2,L4_3,L4_4,L4_5 genTop;
-    class Key2,L5_1,L5_2,L6,L7,L8,L9 genMid;
-    class Key3,L10,L11_1,L11_2,L11_3,L11_4,L12_1,L12_2,L13_1,L13_2,L13_6,L13_7,L14_1,L14_2,L14_3,L14_4,L14_5,L14_6 genDeep;
-    class Key4,L13_3,L13_4,L13_5,L13_8,L13_9,L14_7,L14_8 boru;
-  `;
-
-  script.onload = async () => {
-    mermaid.initialize({ startOnLoad: false, theme: 'default' });
-    const container = document.getElementById('mermaid-diagram');
-    
-    try {
-      const { svg } = await mermaid.render('genealogy-graph', graphDefinition);
-      container.innerHTML = svg;
-      
-      const svgElement = container.querySelector('svg');
-      // Ensure SVG takes full dimensions and removes any restrictive max-width
-      svgElement.style.width = '100%';
-      svgElement.style.height = '100%';
-      svgElement.style.maxWidth = 'none';
-      svgElement.setAttribute('width', '100%');
-      svgElement.setAttribute('height', '100%');
-      
-      // Initialize pan and zoom
-      const panZoom = svgPanZoom(svgElement, {
-        zoomEnabled: true,
-        controlIconsEnabled: false,
-        fit: true,
-        center: true,
-        minZoom: 0.1,
-        maxZoom: 10
-      });
-
-      // Bind custom UI buttons
-      document.getElementById('zoom-in').addEventListener('click', () => panZoom.zoomIn());
-      document.getElementById('zoom-out').addEventListener('click', () => panZoom.zoomOut());
-      document.getElementById('zoom-reset').addEventListener('click', () => {
-        panZoom.resetZoom();
-        panZoom.center();
-      });
-      
-      // Handle window resize to adjust pan-zoom container
-      window.addEventListener('resize', () => {
-        panZoom.resize();
-        panZoom.fit();
-        panZoom.center();
-      });
-
-    } catch (error) {
-      console.error('Error rendering Mermaid diagram:', error);
-      container.innerHTML = '<p style="color: red; padding: 20px;">Error rendering diagram. Please check the console for details.</p>';
+    function waitForSvgPanZoom(callback, tries) {
+      tries = tries || 0;
+      if (window.svgPanZoom) {
+        callback();
+      } else if (tries < 20) {
+        setTimeout(function () { waitForSvgPanZoom(callback, tries + 1); }, 150);
+      } else {
+        console.error('svgPanZoom did not load in time');
+      }
     }
-  };
+
+    function renderDiagram() {
+      // Dynamically import mermaid as ES module
+      var script = document.createElement('script');
+      script.type = 'module';
+      script.textContent = [
+        'import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";',
+        'mermaid.initialize({ startOnLoad: false, theme: "default", securityLevel: "loose" });',
+        'var def = document.getElementById("genealogy-graph-def").textContent;',
+        'mermaid.render("genealogy-graph", def).then(function(result) {',
+        '  var container = document.getElementById("mermaid-diagram");',
+        '  container.innerHTML = result.svg;',
+        '  var svgEl = container.querySelector("svg");',
+        '  if (!svgEl) { console.error("SVG not generated"); return; }',
+        '  svgEl.removeAttribute("style");',
+        '  svgEl.removeAttribute("width");',
+        '  svgEl.removeAttribute("height");',
+        '  svgEl.style.width = "100%";',
+        '  svgEl.style.height = "100%";',
+        '  svgEl.style.maxWidth = "none";',
+        '  window._genealogyDiagramReady = svgEl;',
+        '}).catch(function(err) {',
+        '  document.getElementById("mermaid-diagram").innerHTML =',
+        '    "<p style=\'color:red;padding:20px\'>Error rendering diagram: " + err.message + "</p>";',
+        '});'
+      ].join('\n');
+      document.head.appendChild(script);
+
+      // Poll until mermaid has set the flag, then init pan-zoom
+      waitForSvgPanZoom(function () {
+        var poll = setInterval(function () {
+          var svgEl = window._genealogyDiagramReady;
+          if (!svgEl) return;
+          clearInterval(poll);
+
+          var panZoom = window.svgPanZoom(svgEl, {
+            zoomEnabled: true,
+            controlIconsEnabled: false,
+            fit: true,
+            center: true,
+            minZoom: 0.1,
+            maxZoom: 10
+          });
+
+          document.getElementById('zoom-in').addEventListener('click', function () { panZoom.zoomIn(); });
+          document.getElementById('zoom-out').addEventListener('click', function () { panZoom.zoomOut(); });
+          document.getElementById('zoom-reset').addEventListener('click', function () {
+            panZoom.resetZoom();
+            panZoom.center();
+          });
+
+          window.addEventListener('resize', function () {
+            panZoom.resize();
+            panZoom.fit();
+            panZoom.center();
+          });
+        }, 100);
+      });
+    }
+
+    // Store the graph definition in a hidden element so the ES module script can read it
+    var defEl = document.createElement('script');
+    defEl.type = 'text/plain';
+    defEl.id = 'genealogy-graph-def';
+    defEl.textContent = graphDefinition;
+    document.body.appendChild(defEl);
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', renderDiagram);
+    } else {
+      renderDiagram();
+    }
+  }());
 </script>
