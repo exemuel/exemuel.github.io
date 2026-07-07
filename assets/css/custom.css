@@ -1,0 +1,26 @@
+.diagram-container {
+  overflow: auto;
+  max-height: 700px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #f8fafc;
+  margin: 2rem 0;
+  padding: 0.5rem;
+}
+
+#mermaid-diagram {
+  min-width: 100%;
+}
+
+#mermaid-diagram svg {
+  display: block;
+  max-width: none !important;
+  height: auto;
+}
+
+.figure-caption {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
