@@ -1,22 +1,59 @@
 ---
-title: 'My Family Genealogy'
+title: "The Situmeang Clan and My Family Genealogy"
 date: 2026-06-27
 permalink: /posts/2026/06/my-family-genealogy/
 tags:
-- genealogy
+  - genealogy
+  - batak
+  - tarombo
+  - situmeang
+  - family-history
 ---
 
-<p>In Batak genealogy, the Situmeang (<em>Surat Batak</em>: ᯘᯪᯖᯮᯔᯩᯀᯰ) clan is part of the lineage of
-  <strong>Naipospos</strong>. This clan was inherited directly by <strong>Naipospos' fourth son, Jamita
-    Mangaraja</strong>. Situmeang is included in the lineage of <strong>Naipospos' descendants</strong>, along with the
-  Sibagariang, Hutauruk, Simanungkalit, Marbun Lumbanbatu, Marbun Banjarnahor, and Marbun Lumbangaol clans.</p>
+<h2>Introduction</h2>
 
-<p>If you look at the birth order of <strong>Naipospos' sons</strong>, the first was <strong>Donda Hopol</strong>
-  (Sibagariang) from his first wife, followed by <strong>Marbun</strong> from his second wife. Three more sons were born
-  to his first wife: <strong>Donda Ujung</strong> (Hutauruk), <strong>Ujung Tinumpak</strong> (Simanungkalit), and
-  finally <strong>Jamita Mangaraja</strong> (Situmeang). However, tradition in most Batak regions always lists
-  descendants from the first wife to the second wife when writing genealogies (tarombo) if someone has children from
-  multiple wives.</p>
+<p>
+Genealogy (<em>tarombo</em>) occupies a central role in Batak culture. It preserves family history,
+documents ancestral relationships, and strengthens the identity shared by members of the same clan
+(<em>marga</em>). This page presents a portion of my family's genealogy within the
+<strong>Situmeang</strong> clan and traces the lineage across fourteen generations.
+</p>
+
+<h2>The Origin of the Situmeang Clan</h2>
+
+<p>
+The Situmeang clan (<em>Surat Batak</em>: ᯘᯪᯖᯮᯔᯩᯀᯰ) is one of the descendant clans of
+<strong>Naipospos</strong>. According to Batak genealogical tradition, the clan originated from
+<strong>Jamita Mangaraja</strong>, the fourth son of Naipospos. The Situmeang lineage belongs to the
+larger Naipospos family, alongside the Sibagariang, Hutauruk, Simanungkalit, Marbun Lumbanbatu,
+Marbun Banjarnahor, and Marbun Lumbangaol clans.
+</p>
+
+<p>
+Naipospos had sons from two wives. His eldest son,
+<strong>Donda Hopol</strong> (ancestor of the Sibagariang clan), was born to his first wife,
+followed by <strong>Marbun</strong>, who was born to his second wife. Three additional sons were
+later born to the first wife:
+<strong>Donda Ujung</strong> (ancestor of Hutauruk),
+<strong>Ujung Tinumpak</strong> (ancestor of Simanungkalit), and
+<strong>Jamita Mangaraja</strong> (ancestor of Situmeang).
+</p>
+
+<p>
+Although Marbun was the second son by birth order, Batak <em>tarombo</em> traditionally groups
+descendants according to maternal lineage. Consequently, genealogical records usually list the
+descendants of the first wife before those of the second wife whenever an ancestor had children from
+multiple marriages.
+</p>
+
+<h2>My Family Lineage</h2>
+
+<p>
+The interactive genealogy below illustrates my direct paternal lineage within the Situmeang clan,
+beginning with <strong>Jamita Mangaraja</strong> and continuing through fourteen generations to the
+present day. Use the zoom controls or drag the diagram to explore individual branches of the family
+tree.
+</p>
 
 <style>
   .diagram-container {
@@ -126,7 +163,7 @@ tags:
         classDef genDeep fill:#fff8e1,stroke:#fbc02d,stroke-width:2px,font-size:13px,color:#f57f17
         classDef boru fill:#fce4ec,stroke:#e91e63,stroke-width:2px,stroke-dasharray: 5 5,font-size:13px,color:#880e4f
 
-        subgraph Legend [Diagram Legend & Color Key]
+        subgraph Legend [Generation Color Guide]
             direction LR
             Key1["Generations 1-4"]:::genTop
             Key2["Generations 5-9"]:::genMid
@@ -134,7 +171,7 @@ tags:
             Key4["Boru (Daughters/In-laws)"]:::boru
         end
 
-        subgraph G1 [Generation 1]
+        subgraph G1 [Generation 1 (Founding Ancestor)]
             L1["Djamita Mangaradja"]:::genTop
         end
         subgraph G2 [Generation 2]
@@ -198,13 +235,17 @@ tags:
         end
         subgraph G14 [Generation 14]
             L14_1["Samuel Indra Gunawan"]:::genDeep
-            L14_2["Jeremiya"]:::genDeep
+            L14_2["Jeremiya/Br. Tampubolon"]:::genDeep
             L14_3["Mohaga Rianto Manalaksak"]:::genDeep
             L14_4["Julio Gilbert Hamonangan"]:::genDeep
             L14_5["Haris Prasetya Dharma Syahputra"]:::genDeep
             L14_6["Hans Mayson Pranajaya"]:::genDeep
             L14_7["Boru\\nRani Evadewi Ria Br. Situmeang"]:::boru
             L14_8["Boru\\nRiyanti Br. Situmeang"]:::boru
+        end
+        subgraph G15 [Generation 15]
+            L15_1["Jaan Naka Gavra Kelana"]:::genDeep
+            L15_2["Joui Cantara Matthew"]:::genDeep
         end
 
         L1 --- L2_1
@@ -250,6 +291,8 @@ tags:
         L13_4 --- L14_6
         L13_4 --- L14_7
         L13_4 --- L14_8
+        L14_2 --- L15_1
+        L14_2 --- L15_2
   `;
 
   // 3. Render and Attach Zoom Logic
@@ -305,3 +348,7 @@ tags:
     renderAndAttach();
   }
 </script>
+
+<p style="text-align:center; color:#64748b; font-size:0.95rem;">
+Figure 1. Direct paternal lineage of the Situmeang clan, from Jamita Mangaraja to the present generation.
+</p>
