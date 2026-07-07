@@ -1,0 +1,136 @@
+flowchart TD
+    classDef genTop fill:#e3f2fd,stroke:#1e88e5,stroke-width:3px,font-size:16px,color:#0d47a1,font-weight:bold
+    classDef genMid fill:#e8f5e9,stroke:#4caf50,stroke-width:2px,font-size:14px,color:#1b5e20,font-weight:bold
+    classDef genDeep fill:#fff8e1,stroke:#fbc02d,stroke-width:2px,font-size:13px,color:#f57f17
+    classDef boru fill:#fce4ec,stroke:#e91e63,stroke-width:2px,stroke-dasharray: 5 5,font-size:13px,color:#880e4f
+
+    subgraph Legend [Generation Color Guide]
+        direction LR
+        Key1["Generations 1-4"]:::genTop
+        Key2["Generations 5-9"]:::genMid
+        Key3["Generations 10-14"]:::genDeep
+        Key4["Boru (Daughters/In-laws)"]:::boru
+    end
+
+    subgraph G1 [Generation 1 (Founding Ancestor)]
+        L1["Djamita Mangaradja"]:::genTop
+    end
+    subgraph G2 [Generation 2]
+        L2_1["Ompu Raja Lalo"]:::genTop
+        L2_2["Binanga Julu"]:::genTop
+        L2_3["Ompu Raja Naunang"]:::genTop
+        L2_4["Ompu Juara Tua"]:::genTop
+    end
+    subgraph G3 [Generation 3]
+        L3_1["Tuan Marsanti"]:::genTop
+        L3_2["Palionggang"]:::genTop
+        L3_3["Marbulusan"]:::genTop
+        L3_4["Manalaksak"]:::genTop
+    end
+    subgraph G4 [Generation 4]
+        L4_1["Ompu Mangala Dongan"]:::genTop
+        L4_2["Ompu Hombar"]:::genTop
+        L4_3["Gr. Sumodung"]:::genTop
+        L4_4["Ompu Binjuru"]:::genTop
+        L4_5["Ompu Tarborong"]:::genTop
+    end
+    subgraph G5 [Generation 5]
+        L5_1["Simarrante"]:::genMid
+        L5_2["Gr. Solupa (Lantosan)"]:::genMid
+    end
+    subgraph G6 [Generation 6]
+        L6["Ompu Parbue"]:::genMid
+    end
+    subgraph G7 [Generation 7]
+        L7["Ompu Somiduk"]:::genMid
+    end
+    subgraph G8 [Generation 8]
+        L8["Situameat"]:::genMid
+    end
+    subgraph G9 [Generation 9]
+        L9["Sinar Soara\nBr. Sarumpaet"]:::genMid
+    end
+    subgraph G10 [Generation 10]
+        L10["Op. Ni Abaran/Br. Siahaan"]:::genDeep
+    end
+    subgraph G11 [Generation 11]
+        L11_1["Hisar/Br. Siahaan"]:::genDeep
+        L11_2["Saut/Br. Siahaan"]:::genDeep
+        L11_3["Lopian/Br. Hutabarat"]:::genDeep
+        L11_4["St. Boel/Br. Hutauruk"]:::genDeep
+    end
+    subgraph G12 [Generation 12]
+        L12_1["Teken/Br. Hutabarat"]:::genDeep
+        L12_2["Gr. Lukas /Br. Manalu"]:::genDeep
+    end
+    subgraph G13 [Generation 13]
+        L13_1["Usdin/Br. Hutahaean"]:::genDeep
+        L13_2["Hotman/Br. Simangunsong"]:::genDeep
+        L13_3["Boru\nTetty Br. Situmeang/Panjaitan"]:::boru
+        L13_4["Boru\nNurmaiwan Br. Situmeang/Simanjuntak"]:::boru
+        L13_5["Boru\nRitauli Br. Situmeang/Panggabean"]:::boru
+        L13_6["Pnt. Antoni/Br. Laoli"]:::genDeep
+        L13_7["Nimrot/Br. Sirait"]:::genDeep
+        L13_8["Boru\nMartha Br. Situmeang/Marpaung"]:::boru
+        L13_9["Boru\nSinta Bonauli Br. Situmeang/Sirait"]:::boru
+    end
+    subgraph G14 [Generation 14]
+        L14_1["Samuel Indra Gunawan"]:::genDeep
+        L14_2["Jeremiya/Br. Tampubolon"]:::genDeep
+        L14_3["Mohaga Rianto Manalaksak"]:::genDeep
+        L14_4["Julio Gilbert Hamonangan"]:::genDeep
+        L14_5["Haris Prasetya Dharma Syahputra"]:::genDeep
+        L14_6["Hans Mayson Pranajaya"]:::genDeep
+        L14_7["Boru\nRani Evadewi Ria Br. Situmeang"]:::boru
+        L14_8["Boru\nRiyanti Br. Situmeang"]:::boru
+    end
+    subgraph G15 [Generation 15]
+        L15_1["Jaan Naka Gavra Kelana"]:::genDeep
+        L15_2["Joui Cantara Matthew"]:::genDeep
+    end
+
+    L1 --- L2_1
+    L1 --- L2_2
+    L1 --- L2_3
+    L1 --- L2_4
+    L2_1 --- L3_1
+    L2_1 --- L3_2
+    L2_1 --- L3_3
+    L2_1 --- L3_4
+    L3_4 --- L4_1
+    L3_4 --- L4_2
+    L3_4 --- L4_3
+    L3_4 --- L4_4
+    L3_4 --- L4_5
+    L4_1 --- L5_1
+    L4_1 --- L5_2
+    L5_2 --- L6
+    L6 --- L7
+    L7 --- L8
+    L8 --- L9
+    L9 --- L10
+    L10 --- L11_1
+    L10 --- L11_2
+    L10 --- L11_3
+    L10 --- L11_4
+    L11_3 --- L12_1
+    L11_3 --- L12_2
+    L12_1 --- L13_1
+    L12_1 --- L13_2
+    L12_2 --- L13_3
+    L12_2 --- L13_4
+    L12_2 --- L13_5
+    L12_2 --- L13_6
+    L12_2 --- L13_7
+    L12_2 --- L13_8
+    L12_2 --- L13_9
+    L13_3 --- L14_1
+    L13_3 --- L14_2
+    L13_3 --- L14_3
+    L13_3 --- L14_4
+    L13_4 --- L14_5
+    L13_4 --- L14_6
+    L13_4 --- L14_7
+    L13_4 --- L14_8
+    L14_2 --- L15_1
+    L14_2 --- L15_2
